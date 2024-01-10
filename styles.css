@@ -73,6 +73,7 @@ header ul a {
     margin: 2rem 0;
     justify-content: center;
     padding: 0;
+    font-weight: 900;
 }
 
 .boxContainer {
@@ -97,6 +98,40 @@ header ul a {
     width: 200px;
     border-radius: 1rem;
     border: 2px solid blue;
+}
+
+.sectionThree {
+    margin-top: 0;
+    height: 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockquote {
+    max-width: auto;
+    margin: 0;
+}
+
+.blockquote--quoted::before {
+    content: "\201c";
+    font-size: 100px;
+    color: #009578;
+    display: block;
+    margin-bottom: -40px;
+    margin-top: -20px;
+}
+
+.blockquote__text {
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+}
+
+.blockquote__text--author {
+    text-align: end;
+    font-weight: 900;
 }
 
 @media only screen and (max-width: 605px){
