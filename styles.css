@@ -170,6 +170,16 @@ header ul a {
   font-weight: bold;
 }
 
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+}
+
 @media only screen and (max-width: 605px){
     
     .sectionOne > div > div {
