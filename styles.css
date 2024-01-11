@@ -67,6 +67,7 @@ header ul a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .sectionTwo h2 {
@@ -131,6 +132,42 @@ header ul a {
 .blockquote__text--author {
     text-align: end;
     font-weight: 900;
+}
+
+.sectionFour {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionFour__containerOne {
+    background: #3882F6;
+    width: 1000px;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem;
+}
+
+.sectionFour__containerOne--info {
+    width: max-content;
+}
+
+.sectionFour__containerOne--info > * {
+    margin: 0;
+    gap: 0.4rem;
+}
+
+.sectionFour__signUp {
+  background: transparent;
+  border: 2px solid white;
+  padding: 0.3rem 1.5em;
+  border-radius: 0.4rem;
+  color: white;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 605px){
