@@ -61,7 +61,7 @@ header ul a {
 }
 
 .sectionTwo {
-    height: 400px;
+    height: max-content;
     background-color: lightblue;
     display: flex;
     flex-direction: column;
@@ -78,8 +78,7 @@ header ul a {
 
 .boxContainer {
     display: flex;
-    
-    
+    flex-wrap: wrap;
     gap: 3rem;
     text-align: center;
    
@@ -102,7 +101,7 @@ header ul a {
 
 .sectionThree {
     margin-top: 0;
-    height: 350px;
+    height: 450px;
     background-color: #E5E7EB;
     display: flex;
     align-items: center;
